@@ -1,0 +1,326 @@
+{"timestamp":"2025-07-08T15:42:32.936Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:42:33.036Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:42:33.037Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:42:33.037Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:42:37.939Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:43:44.691Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:43:44.783Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:43:44.783Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:43:44.784Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:43:49.692Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:44:01.702Z","level":"info","message":"::1 - - [08/Jul/2025:15:44:01 +0000] \"GET /api-docs HTTP/1.1\" 301 158 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:44:01.734Z","level":"info","message":"::1 - - [08/Jul/2025:15:44:01 +0000] \"GET /api-docs/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:44:09.193Z","level":"info","message":"::1 - - [08/Jul/2025:15:44:09 +0000] \"GET /api-docs/swager HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:44:14.539Z","level":"info","message":"::1 - - [08/Jul/2025:15:44:14 +0000] \"GET /api-docs/swager HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:44:16.675Z","level":"info","message":"::1 - - [08/Jul/2025:15:44:16 +0000] \"GET /api-docs/swager HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:44:30.039Z","level":"info","message":"::1 - - [08/Jul/2025:15:44:30 +0000] \"GET /api-docs/swager HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:44:44.058Z","level":"info","message":"::1 - - [08/Jul/2025:15:44:44 +0000] \"GET /api-docs HTTP/1.1\" 301 158 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:44:44.064Z","level":"info","message":"::1 - - [08/Jul/2025:15:44:44 +0000] \"GET /api-docs/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:44:50.637Z","level":"info","message":"::1 - - [08/Jul/2025:15:44:50 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 130 \"-\" \"com.apple.WebKit.Networking/20621.2.5.11.8 Network/4277.121.5 macOS/15.5\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:44:50.639Z","level":"info","message":"::1 - - [08/Jul/2025:15:44:50 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 118 \"-\" \"com.apple.WebKit.Networking/20621.2.5.11.8 Network/4277.121.5 macOS/15.5\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:44:50.642Z","level":"info","message":"::1 - - [08/Jul/2025:15:44:50 +0000] \"GET /favicon.ico HTTP/1.1\" 404 109 \"-\" \"com.apple.WebKit.Networking/20621.2.5.11.8 Network/4277.121.5 macOS/15.5\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:44:50.647Z","level":"info","message":"::1 - - [08/Jul/2025:15:44:50 +0000] \"GET /api-docs/favicon-16x16.png HTTP/1.1\" 200 665 \"-\" \"com.apple.WebKit.Networking/20621.2.5.11.8 Network/4277.121.5 macOS/15.5\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:44:50.649Z","level":"info","message":"::1 - - [08/Jul/2025:15:44:50 +0000] \"GET /api-docs/favicon-32x32.png HTTP/1.1\" 200 628 \"-\" \"com.apple.WebKit.Networking/20621.2.5.11.8 Network/4277.121.5 macOS/15.5\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:45:02.799Z","level":"info","message":"::1 - - [08/Jul/2025:15:45:02 +0000] \"GET /api-docs/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:45:03.756Z","level":"info","message":"::1 - - [08/Jul/2025:15:45:03 +0000] \"GET /api-docs/swagger-ui-init.js HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:45:03.757Z","level":"info","message":"::1 - - [08/Jul/2025:15:45:03 +0000] \"GET /api-docs/swagger-ui.css HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:45:03.767Z","level":"info","message":"::1 - - [08/Jul/2025:15:45:03 +0000] \"GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:45:03.797Z","level":"info","message":"::1 - - [08/Jul/2025:15:45:03 +0000] \"GET /api-docs/swagger-ui-bundle.js HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T15:45:04.332Z","level":"info","message":"::1 - - [08/Jul/2025:15:45:04 +0000] \"GET /api-docs/favicon-32x32.png HTTP/1.1\" 200 628 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:12:03.201Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:12:03.504Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:12:03.504Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:12:03.504Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:12:08.200Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:14:08.031Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:14:08.300Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:14:08.301Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:14:08.301Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:14:13.032Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:19:17.345Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:19:17.566Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:19:17.566Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:19:17.566Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:19:22.347Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:19:31.709Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:19:31.931Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:19:31.932Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:19:31.932Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:19:36.710Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:24:14.171Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:24:14.375Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:24:14.375Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:24:14.375Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:24:19.173Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:24:25.177Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:24:25.390Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:24:25.390Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:24:25.390Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:24:30.179Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:27:57.596Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:27:57.847Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:27:57.848Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:27:57.848Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:28:02.599Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:29:12.905Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:29:13.097Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:29:13.097Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:29:13.098Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:29:16.745Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:29:16.874Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:29:16.874Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:29:16.874Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:29:21.747Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:55:44.359Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:55:46.233Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:55:46.234Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:55:46.234Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T16:55:49.366Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T17:06:00.046Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T17:06:00.303Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T17:06:00.303Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T17:06:00.303Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T17:06:05.050Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T17:17:13.538Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T17:17:13.978Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T17:17:13.979Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T17:17:13.979Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T17:17:18.654Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T19:27:03.150Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T19:27:03.360Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T19:27:03.361Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T19:27:03.361Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T19:27:08.152Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T20:35:03.527Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T20:35:03.735Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T20:35:03.735Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T20:35:03.735Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T20:35:08.529Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T20:48:43.012Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T20:48:43.317Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T20:48:43.317Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T20:48:43.317Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T20:48:48.017Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T22:00:32.135Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-08T22:00:32.471Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-08T22:00:32.472Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-08T22:00:32.472Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-08T22:00:37.137Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-08T22:01:59.341Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-10T22:02:26.625Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-10T22:02:26.939Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-10T22:02:26.939Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-10T22:02:26.939Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-10T22:02:31.625Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:03:50.707Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:03:50.980Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:03:50.980Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:03:50.980Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:03:53.316Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:03:53.442Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:03:53.442Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:03:53.442Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:03:58.318Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:04:47.967Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:04:48.185Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:04:48.185Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:04:48.186Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:04:52.969Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:06:23.173Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:06:24.355Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:06:24.355Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:06:24.356Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:06:28.185Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:18:32.925Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:18:33.127Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:18:33.127Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:18:33.127Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:18:37.927Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:31:37.291Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:31:37.553Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:31:37.553Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:31:37.554Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:31:42.293Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:34:43.279Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:34:43.486Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:34:43.486Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:34:43.487Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:34:48.282Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:39:25.536Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:39:25.911Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:39:25.912Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:39:25.912Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:39:26.461Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:39:26.586Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:39:26.586Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:39:26.586Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:39:31.464Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:43:01.997Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:43:02.200Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:43:02.200Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:43:02.200Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-10T23:43:06.999Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:03:25.043Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:03:25.267Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:03:25.267Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:03:25.267Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:03:30.043Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:17:15.979Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:17:16.386Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:17:16.386Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:17:16.387Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:17:20.981Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:22:40.132Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:22:40.305Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:22:40.306Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:22:40.306Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:22:45.133Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:22:46.673Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:22:46.837Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:22:46.837Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:22:46.838Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:22:51.677Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:23:25.228Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:23:25.468Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:23:25.469Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:23:25.469Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:23:30.231Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:23:50.265Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:23:50.411Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:23:50.412Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:23:50.412Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:23:55.266Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:24:09.781Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:24:09.927Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:24:09.928Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:24:09.928Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T00:24:14.785Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T02:56:05.477Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T02:56:05.701Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T02:56:05.701Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T02:56:05.701Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T02:56:10.481Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:14:29.859Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:14:30.161Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:14:30.162Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:14:30.162Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:14:34.860Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:15:40.235Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:15:40.639Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:15:40.639Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:15:40.640Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:15:45.237Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:15:51.022Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:15:51.173Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:15:51.174Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:15:51.174Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:15:56.025Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:16:45.643Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:16:45.993Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:16:45.993Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:16:45.993Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:16:50.645Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:20:34.110Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:20:34.397Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:20:34.398Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:20:34.398Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:20:39.113Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:27:29.930Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:27:30.242Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:27:30.242Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:27:30.242Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:27:34.932Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:30:46.040Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:30:46.241Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:30:46.241Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:30:46.241Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:30:51.041Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:32:30.769Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:32:30.993Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:32:30.993Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:32:30.994Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:32:35.774Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:34:37.116Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:34:37.368Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:34:37.368Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:34:37.368Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:34:42.118Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:36:44.002Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:36:44.213Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:36:44.213Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:36:44.214Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:36:49.004Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:38:17.733Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:38:17.970Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:38:17.971Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:38:17.971Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:38:25.718Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:38:25.955Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:38:25.956Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:38:25.956Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:38:30.719Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:43:11.247Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:43:11.488Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:43:11.488Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:43:11.489Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:43:16.250Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:44:14.984Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:44:15.667Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:44:15.669Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:44:15.669Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:44:19.986Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:45:15.730Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:45:15.898Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:45:15.898Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:45:15.899Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T03:45:20.736Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T22:20:16.987Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T22:20:17.295Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T22:20:17.295Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T22:20:17.295Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T22:20:21.988Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T22:40:58.643Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T22:40:58.836Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T22:40:58.837Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T22:40:58.837Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T22:41:03.643Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:34:37.135Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:34:37.375Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:34:37.375Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:34:37.376Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:34:42.138Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:41:19.093Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:41:19.325Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:41:19.325Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:41:19.325Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:41:24.094Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:46:48.599Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:46:48.837Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:46:48.837Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:46:48.838Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:46:53.600Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:52:48.105Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:52:48.287Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:52:48.287Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:52:48.287Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-11T23:52:53.108Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-12T00:10:42.469Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-12T00:10:42.643Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-12T00:10:42.643Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-12T00:10:42.643Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-12T00:10:47.469Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-12T01:34:08.997Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-12T01:34:09.391Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-12T01:34:09.392Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-12T01:34:09.392Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-12T01:34:13.999Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-12T01:57:18.292Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-12T01:57:18.581Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-12T01:57:18.581Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-12T01:57:18.581Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-12T01:57:23.294Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}
+{"timestamp":"2025-07-12T04:37:57.137Z","level":"info","message":"🔗 Cliente gRPC Auth conectado a localhost:50051","service":"api-gateway"}
+{"timestamp":"2025-07-12T04:37:57.914Z","level":"info","message":"🚀 API Gateway iniciado en puerto 3000","service":"api-gateway"}
+{"timestamp":"2025-07-12T04:37:57.914Z","level":"info","message":"📖 Documentación disponible en http://localhost:3000/api-docs","service":"api-gateway"}
+{"timestamp":"2025-07-12T04:37:57.914Z","level":"info","message":"🏥 Pharmacy Control System API Gateway v1.0.0","service":"api-gateway"}
+{"timestamp":"2025-07-12T04:38:02.143Z","level":"error","message":"❌ No se puede conectar al Auth Service:","service":"api-gateway"}

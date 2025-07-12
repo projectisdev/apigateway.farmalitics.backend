@@ -1,0 +1,16 @@
+services:
+  cesarMysql:
+    image: mysql:8.0
+    container_name: proyecto_web
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: black3363
+      MYSQL_DATABASE: pharmacy_auth
+      MYSQL_USER: authp
+      MYSQL_PASSWORD: black3363
+    # volumes:
+    #   - mysql_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+# volumes:
+#   mysql_data:
