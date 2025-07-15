@@ -135,11 +135,11 @@ export const swaggerConfig = {
       },
       {
         name: 'Location',
-        description: 'Gestión de inspecciones'
+        description: 'Gestión de ubicaciones'
       },
       {
-        name: 'Medications',
-        description: 'Gestión de medicamentos'
+        name: 'Supervision',
+        description: 'Gestión de supervisiones'
       },
       {
         name: 'Reports',
