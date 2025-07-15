@@ -209,10 +209,10 @@ export class AuthService {
           message: `Contraseña débil: ${passwordValidation.errors.join(", ")}`,
         };
       }
-
+  
       // Encriptar contraseña
       const hashedPassword = await HashUtil.hashPassword(password);
-
+  
       let roleId = UserData.roleId;
       if (!roleId) {
         const defaultRole = await AppDataSource.getRepository(Role).findOne({
@@ -220,27 +220,25 @@ export class AuthService {
         });
         roleId = defaultRole?.id || 1;
       }
-
-      // Ejecutar stored procedure
-      const result = await AppDataSource.query(
-        `
-          DECLARE @exitoso BIT;
-          DECLARE @mensaje VARCHAR(255);
-      EXEC sp_crear_usuario @0, @1, @2, @3, @4, @exitoso OUTPUT, @mensaje OUTPUT
-
-      -- Saber resultado de la ejecucion del stored procedure
-      SELECT @exitoso AS exitoso, @mensaje AS mensaje;
-    `,
+  
+      // Ejecutar stored procedure MySQL
+      await AppDataSource.query(
+        `CALL sp_crear_usuario(?, ?, ?, ?, ?, @exitoso, @mensaje)`,
         [
           UserData.firstName,
-          UserData.lastName,
+          UserData.lastName || null, // Manejar apellido nulo
           UserData.email.toLowerCase(),
           hashedPassword,
           roleId,
         ]
       );
-
-      //verificar
+  
+      // Obtener los valores de los parámetros OUT
+      const result = await AppDataSource.query(
+        `SELECT @exitoso as exitoso, @mensaje as mensaje`
+      );
+  
+      // Verificar resultado del SP
       const { exitoso, mensaje } = result[0];
       if (!exitoso) {
         return {
@@ -248,33 +246,41 @@ export class AuthService {
           message: mensaje,
         };
       }
-
-      const userId = result[0].id_usuario || result[0].UserId;
-      const createUser = await this.userRepository.findOne({
-        where: { id: userId },
+  
+      // Buscar el usuario recién creado por email ya que MySQL SP no retorna ID
+      const createdUser = await this.userRepository.findOne({
+        where: { email: UserData.email.toLowerCase() },
         relations: ["role"],
       });
-
+  
+      if (!createdUser) {
+        return {
+          success: false,
+          message: "Error: Usuario no encontrado después de la creación",
+        };
+      }
+  
       console.info(`Usuario creado exitosamente: ${UserData.email}`);
       return {
         success: true,
         message: "Usuario creado exitosamente",
-        user: new UserResponseDto(createUser),
+        user: new UserResponseDto(createdUser),
       };
     } catch (error: any) {
       console.error("Error creando usuario:", error);
-
-      // Manejar errores específicos
+  
+      // Manejar errores específicos de MySQL
       if (
-        error.message.includes("duplicate") ||
-        error.message.includes("UNIQUE")
+        error.message.includes("Duplicate entry") ||
+        error.message.includes("ER_DUP_ENTRY") ||
+        error.code === "ER_DUP_ENTRY"
       ) {
         return {
           success: false,
           message: "El email ya está registrado",
         };
       }
-
+  
       return {
         success: false,
         message: "Error interno del servidor",
