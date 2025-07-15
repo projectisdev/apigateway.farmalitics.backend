@@ -20,6 +20,7 @@ import pharmacyRoutes from './routes/pharmacy.routes';
 import locationRoutes from './routes/location.routes';
 import supervisionRoutes from './routes/supervision.routes';
 import medicineTypeRoutes from './routes/medicinetype.route';
+import { reportRoutes } from './routes/report.routes';
 
 
 dotenv.config();
@@ -69,6 +70,7 @@ class ApiGateway {
 private initializeRoutes(): void {
   this.app.use('/health', healthRoutes);
   this.app.use('/api/auth', authRoutes);
+  this.app.use('/api/report', reportRoutes);
 
   // ✅ Farmacias sin prefijo /api
   this.app.use('/', pharmacyRoutes);

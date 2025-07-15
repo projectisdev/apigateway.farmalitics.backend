@@ -47,8 +47,7 @@ export class User {
 
   @CreateDateColumn({ 
     name: 'fecha_registro',
-    type: 'datetime',
-    default: () => 'GETDATE()'
+    type: 'datetime'
   })
   createdAt: Date;
 
