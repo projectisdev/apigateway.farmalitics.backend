@@ -168,6 +168,18 @@ export const updatePharmacyStatus = async (req: Request, res: Response): Promise
   }
 };
 
+// Obtener Farmacias Activas
+
+export const getAllActivePharmacies = async (_req: Request, res: Response): Promise<void> => {
+  try {
+    const [rows]: any = await db.query('CALL sp_GetAllActivePharmacies()');
+    res.json(rows[0]); // Los resultados de CALL vienen anidados
+  } catch (error: any) {
+    console.error('Error en getAllActivePharmacies:', error);
+    res.status(500).json({ error: error.message });
+  }
+};
+
 // Exporta el controlador
 export default {
   getAllPharmacies,
@@ -175,5 +187,6 @@ export default {
   getPharmacyById,
   updatePharmacyById,
   deletePharmacy,
-  updatePharmacyStatus
+  updatePharmacyStatus,
+  getAllActivePharmacies
 };

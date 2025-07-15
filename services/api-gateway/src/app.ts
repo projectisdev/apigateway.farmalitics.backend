@@ -18,6 +18,9 @@ import { swaggerConfig } from './config/swagger.config';
 import db from './config/db';
 import pharmacyRoutes from './routes/pharmacy.routes'; 
 import locationRoutes from './routes/location.routes';
+import supervisionRoutes from './routes/supervision.routes';
+import medicineTypeRoutes from './routes/medicinetype.route';
+
 
 dotenv.config();
 
@@ -72,6 +75,9 @@ private initializeRoutes(): void {
 
   // Rutas para ubicación bajo /api/location
   this.app.use('/api/location', locationRoutes);
+  this.app.use('/', supervisionRoutes);
+  this.app.use('/', medicineTypeRoutes);
+
 
   this.app.get('/', (req: Request, res: Response) => {
     res.json({

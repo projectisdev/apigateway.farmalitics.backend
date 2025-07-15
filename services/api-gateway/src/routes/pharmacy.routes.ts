@@ -349,5 +349,59 @@ router.put('/pharmacies/:id/status', (req: Request, res: Response) => {
   pharmacyController.updatePharmacyStatus(req, res);
 });
 
+/**
+ * @swagger
+ * /pharmacies/active/all:
+ *   get:
+ *     summary: Get all pharmacies with status "Activa"
+ *     tags: [Pharmacies]
+ *     responses:
+ *       200:
+ *         description: List of active pharmacies
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *                 properties:
+ *                   pharmacy_id:
+ *                     type: string
+ *                     format: uuid
+ *                   name:
+ *                     type: string
+ *                   legal_identity:
+ *                     type: string
+ *                   phone:
+ *                     type: string
+ *                   email:
+ *                     type: string
+ *                   country_id:
+ *                     type: integer
+ *                   province_id:
+ *                     type: integer
+ *                   municipality_id:
+ *                     type: integer
+ *                   address:
+ *                     type: string
+ *                   pharmacy_type:
+ *                     type: string
+ *                   number_of_employees:
+ *                     type: integer
+ *                   opening_date:
+ *                     type: string
+ *                     format: date
+ *                   status:
+ *                     type: string
+ *                   created_at:
+ *                     type: string
+ *                     format: date-time
+ *                   updated_at:
+ *                     type: string
+ *                     format: date-time
+ */
+router.get('/pharmacies/active/all', (req: Request, res: Response) => {
+  pharmacyController.getAllActivePharmacies(req, res);
+});
 
 export default router;
